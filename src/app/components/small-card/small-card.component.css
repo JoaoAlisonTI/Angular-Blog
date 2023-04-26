@@ -1,6 +1,7 @@
 .container-small-card {
   display: flex;
   flex-direction: row;
+  padding-bottom: 10px;
   width: 500px;
 }
 .small-card-photo > img {
@@ -12,4 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+hr {
+  margin-bottom: 10px;
 }
