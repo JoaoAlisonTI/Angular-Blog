@@ -1,0 +1,9 @@
+.container-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 30px 40px 30px;
+}
+.articles-others {
+  margin-left: 40px;
+}
