@@ -12,6 +12,7 @@ var SmallCardComponent = /** @class */ (function () {
     function SmallCardComponent() {
         this.photoCover = "";
         this.cardTitle = "";
+        this.Id = "0";
     }
     SmallCardComponent.prototype.ngOnInit = function () {
     };
@@ -21,6 +22,9 @@ var SmallCardComponent = /** @class */ (function () {
     __decorate([
         (0, core_1.Input)()
     ], SmallCardComponent.prototype, "cardTitle", void 0);
+    __decorate([
+        (0, core_1.Input)()
+    ], SmallCardComponent.prototype, "Id", void 0);
     SmallCardComponent = __decorate([
         (0, core_1.Component)({
             selector: 'app-small-card',

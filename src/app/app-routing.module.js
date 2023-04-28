@@ -9,7 +9,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppRoutingModule = void 0;
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var routes = [];
+var content_component_1 = require("./pages/content/content.component");
+var home_component_1 = require("./pages/home/home.component");
+var routes = [
+    {
+        path: '',
+        component: home_component_1.HomeComponent
+    },
+    {
+        path: 'content/:id',
+        component: content_component_1.ContentComponent
+    }
+];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }

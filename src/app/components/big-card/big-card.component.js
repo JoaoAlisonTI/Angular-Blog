@@ -13,6 +13,7 @@ var BigCardComponent = /** @class */ (function () {
         this.photoCover = "";
         this.cardTitle = "";
         this.cardDescription = "";
+        this.Id = "0";
     }
     BigCardComponent.prototype.ngOnInit = function () {
     };
@@ -25,6 +26,9 @@ var BigCardComponent = /** @class */ (function () {
     __decorate([
         (0, core_1.Input)()
     ], BigCardComponent.prototype, "cardDescription", void 0);
+    __decorate([
+        (0, core_1.Input)()
+    ], BigCardComponent.prototype, "Id", void 0);
     BigCardComponent = __decorate([
         (0, core_1.Component)({
             selector: 'app-big-card',
